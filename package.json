@@ -1,0 +1,26 @@
+{
+  "name": "book-o-matic",
+  "version": "1.0.0",
+  "description": "Petit outil destiné à NicoS pour automatiser la planification des entretiens",
+  "main": "bookomatic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bamlab/book-o-matic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bamlab/book-o-matic/issues"
+  },
+  "homepage": "https://github.com/bamlab/book-o-matic#readme",
+  "dependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  }
+}
