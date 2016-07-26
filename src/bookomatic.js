@@ -1,17 +1,32 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 
-var Bookomatic = React.createClass({
+class Bookomatic extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      applicantName: null,
+    };
+  }
+
+  updateState(event) {
+    this.setState({ applicantName: event.target.value });
+  }
+
   render() {
     return (
-      <p>Hello Nico</p>
+      <input
+        type="text"
+        value={this.state.value}
+        onChange={(event) => this.updateState(event)}
+      />
     );
   }
-});
+}
 
 setInterval(function() {
   ReactDOM.render(
-    <Bookomatic/>,
+    <Bookomatic />,
     document.getElementById('container')
   );
 }, 50);
