@@ -11,8 +11,6 @@
     "type": "git",
     "url": "git+https://github.com/bamlab/book-o-matic.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/bamlab/book-o-matic/issues"
   },
