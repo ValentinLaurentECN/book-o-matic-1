@@ -4,7 +4,7 @@
   "description": "Petit outil destiné à NicoS pour automatiser la planification des entretiens",
   "main": "webpack.config.js",
   "scripts": {
-    "webpack-dev-server": "webpack-dev-server --progress --colors",
+    "serve": "webpack-dev-server --progress --colors",
     "webpack": "webpack"
   },
   "repository": {
