@@ -7,6 +7,10 @@ Cloner le repo, npm install.
 
 #Developpement
 
-npm run serve puis aller sur http://localhost:8080/
+npm run serve pour servir la page sur http://localhost:8080/
 
 #Déploiement sur GitHub Pages
+
+Aller sur la branche gh-pages (git checkout gh-pages), git rebase master, npm run webpack, puis pousser sur GitHub.
+
+Le résultat est disponible sur https://bamlab.github.io/book-o-matic/bin/
