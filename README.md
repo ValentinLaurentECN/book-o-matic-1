@@ -1,7 +1,7 @@
-**2021 update**
-Archived (old repo, outdated and not useful anymore)
+# Book-o-matic (archived)
+**2021 update: Archived (old repo, outdated and not useful anymore)**
 
-# Book-o-matic
+
 Petit outil destiné à NicoS pour automatiser la planification des entretiens
 
 #Installation du projet
